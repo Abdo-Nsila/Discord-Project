@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/Discord-Project/static/css/main.19b37d54.css",
-    "main.js": "/Discord-Project/static/js/main.7184fab1.js",
+    "main.css": "/Discord-Project/static/css/main.08f0b179.css",
+    "main.js": "/Discord-Project/static/js/main.820897b4.js",
     "static/media/a35f7027-4be1-4640-a259-28d6d16f2b5a.webp": "/Discord-Project/static/media/a35f7027-4be1-4640-a259-28d6d16f2b5a.39ec76d66e74dbcd354a.webp",
     "static/media/dc81cab0-3ec5-42f9-a624-85901320fbe5.webp": "/Discord-Project/static/media/dc81cab0-3ec5-42f9-a624-85901320fbe5.a6f6b8274459d829098c.webp",
     "static/media/856378e3-9e59-4d75-8a06-ac6787e550a0.webp": "/Discord-Project/static/media/856378e3-9e59-4d75-8a06-ac6787e550a0.05f39e6347d83dee7b24.webp",
@@ -9,11 +9,11 @@
     "static/media/239b7ed7-6f74-4591-b0d4-572336e1f174.webp": "/Discord-Project/static/media/239b7ed7-6f74-4591-b0d4-572336e1f174.e5f8cd4c8548cd308b2b.webp",
     "static/media/123b003a-eb5d-4846-bbff-7b4e62b58665.webp": "/Discord-Project/static/media/123b003a-eb5d-4846-bbff-7b4e62b58665.c4ebf229ba1c21f86bc7.webp",
     "index.html": "/Discord-Project/index.html",
-    "main.19b37d54.css.map": "/Discord-Project/static/css/main.19b37d54.css.map",
-    "main.7184fab1.js.map": "/Discord-Project/static/js/main.7184fab1.js.map"
+    "main.08f0b179.css.map": "/Discord-Project/static/css/main.08f0b179.css.map",
+    "main.820897b4.js.map": "/Discord-Project/static/js/main.820897b4.js.map"
   },
   "entrypoints": [
-    "static/css/main.19b37d54.css",
-    "static/js/main.7184fab1.js"
+    "static/css/main.08f0b179.css",
+    "static/js/main.820897b4.js"
   ]
 }
