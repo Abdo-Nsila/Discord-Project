@@ -24,7 +24,7 @@ body{
 
 .all-card{
     padding: 10px;
-    height: 95%;
+    /* height: 95%; */
     width: 95%;
     display: flex;
     flex-wrap: wrap;
@@ -102,21 +102,17 @@ body{
     color: grey;
 }
 button{
-    align-self: center;
+    width: 100%;
+    margin: auto;
     cursor: pointer;
     font-size: medium;
     font-weight: 600;
     padding: 4px 10px;
     background-color: #fff;
-    color: black;
-    border: none;
-    outline: black solid 2px;
-    transition: all .5s;
+    color: white;
+    background-color: black;
 }
-button:hover{
-    outline: black solid 2px;
-    outline-offset: -5px ;
-}
+
 
 strong{
     font-size: larger;
