@@ -1,0 +1,61 @@
+:root{
+    --bg-aside: #1e1f22;
+    --bg-server: #2b2d31;
+    --bg-button: #313338;
+    --bg-box: #232428;
+}
+
+aside{
+    height: 100%;
+    width: 80px;
+    padding-top: 5px;
+    background-color: var(--bg-aside);
+    color: aliceblue;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+
+
+.button-box{
+    position: relative;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.short-bar{
+    position: absolute;
+    left: 0;
+    height: 13%;
+    width: 4px;
+    border-radius: 0 20px 20px 0;
+    background-color: #fff;
+    transition: all 0.5s;
+}
+.aside_btn{
+    height: 50px;
+    width: 50px;
+    border: 1px solid black;
+    outline: 1px solid black;
+    border-radius: 100px;
+    background-size: cover;
+    background-position-x: 45%;
+    background-position-y: 50%;
+    background-repeat: no-repeat;
+    transition: all 0.5s;
+}
+.aside_btn:hover, .aside_btn:focus{
+    cursor: pointer;
+    border-radius: 20px;
+}
+
+
+.hr{
+    width: 45%;
+    height: 3px;
+    border-radius: 50px;
+    background-color: var(--bg-server);
+}
+

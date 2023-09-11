@@ -1,0 +1,39 @@
+:root{
+    --bg-aside: #1e1f22;
+    --bg-server: #2b2d31;
+    --bg-button: #313338;
+    --bg-box: #232428;
+}
+
+.main-server{
+    background-color: var(--bg-server);
+    height: 100%;
+    width: 250px;
+    border-top-left-radius: 10px;
+}
+
+.header-server{
+    color: white;
+    font-weight: 600;
+    font-size: 18px;
+    height: 7%;
+    width: 100%;
+    border-bottom: 2px solid var(--bg-aside);
+    display: flex;
+    align-items: center;
+    padding-left: 20px;
+}
+
+.categories{
+    background-color: #fff;
+    /* height: 73%; */
+    height: 10%;
+    width: 100%;
+    overflow: auto;
+}
+
+.footer-server{
+    height: 20%;
+    width: 100%;
+    background-color: var(--bg-box);
+}
