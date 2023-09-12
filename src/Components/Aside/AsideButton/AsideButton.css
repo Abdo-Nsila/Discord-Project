@@ -14,6 +14,10 @@
     background-color: #fff;
     transition: all 0.5s;
 }
+.short-bar:hover{
+    height: 30%;
+}
+
 .aside_btn{
     height: 50px;
     width: 50px;

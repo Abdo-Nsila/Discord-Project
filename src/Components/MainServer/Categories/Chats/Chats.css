@@ -9,14 +9,14 @@
 
 .chat{
     width: 95%;
-    height: 40px;
+    height: 35px;
     margin: auto;
     padding: 0 5px;
     display: flex;
     align-items: center;
-    border-radius: 7px;
+    border-radius: 5px;
     color: #949ba4;
 }
 .chat:hover{
-    background-color: #333335;
+    background-color: #34353b;
 }
