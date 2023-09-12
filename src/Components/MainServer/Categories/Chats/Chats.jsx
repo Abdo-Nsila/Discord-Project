@@ -1,7 +1,7 @@
 import './Chats.css';
 
-export default function Chats({ chatType, name, handleFocus }){
+export default function Chats({ chatType, name, handleEvent }){
     return(
-        <div className='chat' onFocus={(e)=>handleFocus(e,'#404249')} onBlur={(e)=>handleFocus(e,'#ff0')} >{chatType==="chat" ? '#' : '🔊'} {name}</div>
+        <div className='chat' onClick={(e)=>handleEvent(e,'#404249')} onMouseOut={(e)=>handleEvent(e,'#ff0')} >{chatType==="chat" ? '📝' : '🔊'} {name}</div>
     )
 }

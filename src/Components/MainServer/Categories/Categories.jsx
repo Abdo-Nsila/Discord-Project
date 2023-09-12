@@ -4,10 +4,9 @@ import Chats from './Chats/Chats'
 export default function Categories({ name }){
 
     function handleEvent(e,color){
+        console.log('ok')
         const block = e.target;
-        block.addEventListener('focus',()=>{
-            block.target.style.backgroundColor = color;
-        })
+        block.style.backgroundColor = color;
     }
 
     return(
