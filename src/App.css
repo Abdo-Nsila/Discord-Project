@@ -13,6 +13,7 @@ html{
     --bg-server: #2b2d31;
     --bg-button: #313338;
     --bg-box: #232428;
+    --bg-message: #383a40 ;
 }
 
 body,#root{

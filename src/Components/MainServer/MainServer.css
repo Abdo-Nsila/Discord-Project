@@ -3,6 +3,7 @@
     --bg-server: #2b2d31;
     --bg-button: #313338;
     --bg-box: #232428;
+    --bg-message: #383a40 ;
 }
 
 .main-server{
@@ -25,15 +26,14 @@
 }
 
 .categories{
-    background-color: #fff;
-    /* height: 73%; */
-    height: 10%;
+    background-color: var(--bg-server);
+    height: 85%;
     width: 100%;
     overflow: auto;
 }
 
 .footer-server{
-    height: 20%;
+    height: 8%;
     width: 100%;
     background-color: var(--bg-box);
 }

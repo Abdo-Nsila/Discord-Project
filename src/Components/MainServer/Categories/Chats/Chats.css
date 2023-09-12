@@ -1,0 +1,22 @@
+:root{
+    --bg-aside: #1e1f22;
+    --bg-server: #2b2d31;
+    --bg-button: #313338;
+    --bg-box: #232428;
+    --bg-message: #383a40 ;
+    --bg-chat: #404249;
+}
+
+.chat{
+    width: 95%;
+    height: 40px;
+    margin: auto;
+    padding: 0 5px;
+    display: flex;
+    align-items: center;
+    border-radius: 7px;
+    color: #949ba4;
+}
+.chat:hover{
+    background-color: #333335;
+}

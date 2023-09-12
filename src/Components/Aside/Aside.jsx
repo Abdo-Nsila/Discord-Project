@@ -1,4 +1,4 @@
-import AsideButton from './AsideButton'
+import AsideButton from './AsideButton/AsideButton'
 import './Aside.css'
 
 export default function Aside(){

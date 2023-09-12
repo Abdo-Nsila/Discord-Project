@@ -1,0 +1,24 @@
+:root{
+    --bg-aside: #1e1f22;
+    --bg-server: #2b2d31;
+    --bg-button: #313338;
+    --bg-box: #232428;
+    --bg-message: #383a40 ;
+}
+
+.categorie{
+    /* background-color: mediumslateblue; */
+    width: 100%;
+    margin: 20px 0;
+}
+
+.categorie span{
+    font-weight: 700;
+    color: #949ba4;
+    padding: 0 10px;
+}
+
+.chats{
+    display: flex;
+    flex-direction: column;
+}

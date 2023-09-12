@@ -1,3 +1,4 @@
+import './AsideButton.css';
 
 export default function AsideButton({ added, srcImg}){
     function handleFocus(e){

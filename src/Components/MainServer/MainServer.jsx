@@ -1,4 +1,5 @@
 import './MainServer.css'
+import Categories from './Categories/Categories'
 
 export default function MainServer(){
     return(
@@ -7,13 +8,7 @@ export default function MainServer(){
                 <span>PLAY</span>
             </div>
             <div className='categories'>
-                <p>gg</p>
-                <p>gg</p>
-                <p>gg</p>
-                <p>gg</p>
-                <p>gg</p>
-                <p>gg</p>
-                <p>gg</p>
+                <Categories name={'SCHOOL'}/>
             </div>
             <div className='footer-server'></div>
         </div>
