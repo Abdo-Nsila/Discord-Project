@@ -1,0 +1,15 @@
+:root{
+    --bg-aside: #1e1f22;
+    --bg-server: #2b2d31;
+    --bg-button: #313338;
+    --bg-box: #232428;
+    --bg-message: #383a40 ;
+}
+
+main{
+    color: bisque;
+    background-color: black;
+    /* background-color: var(--bg-button); */
+    width: 1025px; 
+    height: 100%;
+}

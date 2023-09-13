@@ -9,6 +9,8 @@ export default function MainServer(){
             </div>
             <div className='categories'>
                 <Categories name={'SCHOOL'}/>
+                <Categories name={'PLAY'}/>
+                <Categories name={'WATCH'}/>
             </div>
             <div className='footer-server'></div>
         </div>
