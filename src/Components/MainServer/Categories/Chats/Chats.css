@@ -14,7 +14,9 @@
     padding: 0 5px;
     display: flex;
     align-items: center;
+    border: none;
     border-radius: 5px;
+    background-color: transparent;
     color: #949ba4;
 }
 .chat:hover{
