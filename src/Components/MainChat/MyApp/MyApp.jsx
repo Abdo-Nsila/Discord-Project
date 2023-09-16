@@ -1,29 +1,51 @@
-import { Flex, Text, Button, Code,Em, Kbd, Avatar, Badge } from '@radix-ui/themes';
+import {
+  Flex,
+  Text,
+  Button,
+  Code,
+  Em,
+  Kbd,
+  Avatar,
+  Badge,
+  DropdownMenu,
+} from "@radix-ui/themes";
+import { CaretDownIcon } from "@radix-ui/react-icons";
+
+import * as ScrollArea from "@radix-ui/react-scroll-area";
+import "./MyApp.css";
+
+const TAGS = Array.from({ length: 50 }).map(
+  (_, i, a) => `v1.2.0-beta.${a.length - i}`
+);
 
 export default function MyApp() {
   return (
     <>
-    <Flex direction="column" gap="2" align="center" >
-      <Kbd>Shift + Tab</Kbd>
-      <Text m="2" size="4" >Hello from <Em>Radix</Em> Themes :)</Text>
-      <Code color='indigo' variant="outline" >console.log()</Code>
-      <Button>Let's go</Button>
-    </Flex>
-
-    <Flex gap="2">
-      <Avatar radius="none" fallback="S" />
-      <Avatar radius="large" fallback="S" />
-      <Avatar radius="full" fallback="S" />
-    </Flex>
-
-    <Flex gap="2">
-      <Badge color="orange">In progress</Badge>
-      <Badge color="blue">In review</Badge>
-      <Badge color="green">Complete</Badge>
-  </Flex>
-
-
+      <ScrollArea.Root className="ScrollAreaRoot">
+        <ScrollArea.Viewport className="ScrollAreaViewport">
+          <div style={{ padding: "15px 20px" }}>
+            <div className="Text">Tags</div>
+            {TAGS.map((tag) => (
+              <div className="Tag" key={tag}>
+                {tag}
+              </div>
+            ))}
+          </div>
+        </ScrollArea.Viewport>
+        <ScrollArea.Scrollbar
+          className="ScrollAreaScrollbar"
+          orientation="vertical"
+        >
+          <ScrollArea.Thumb className="ScrollAreaThumb" />
+        </ScrollArea.Scrollbar>
+        <ScrollArea.Scrollbar
+          className="ScrollAreaScrollbar"
+          orientation="horizontal"
+        >
+          <ScrollArea.Thumb className="ScrollAreaThumb" />
+        </ScrollArea.Scrollbar>
+        <ScrollArea.Corner className="ScrollAreaCorner" />
+      </ScrollArea.Root>
     </>
-
   );
 }

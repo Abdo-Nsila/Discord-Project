@@ -8,8 +8,6 @@
 
 main{
     color: bisque;
-    background-color: black;
-    /* background-color: var(--bg-button); */
     width: 1025px; 
     height: 100%;
 }

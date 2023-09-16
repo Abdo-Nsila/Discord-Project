@@ -5,7 +5,7 @@ import "./MainChat.css";
 export default function MainChat() {
   return (
     <main>
-      <Theme appearance="dark" accentColor="indigo">
+      <Theme appearance="dark" grayColor="gray" accentColor="indigo">
         <MyApp />
       </Theme>
     </main>
