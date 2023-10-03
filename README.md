@@ -2,3 +2,4 @@
 
  * ``Connection to Firebase``
  * ``Responsive Design``
+ * ``Learn about APIs``
